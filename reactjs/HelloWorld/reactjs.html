@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<!--
+	This is a real simple reactjs HelloWorld example.
+	
+	You don't need any FUCKING online code execution environment (e.g. CodePen).
+	You don't need to know any FUNCKING preprocessor (e.g. Babel) at this moment.
+	
+	In this example, you can learn how reactjs REALLY work.
+	
+	Put this example in your web container and check this out.
+-->
+<body>
+<div id="root"></div>
+<script src='http://unpkg.com/react/umd/react.development.js'></script>
+<script src='http://unpkg.com/react-dom/umd/react-dom.development.js'></script>
+<script>
+ReactDOM.render(
+	// In the OFFICIAL tutorial, they use JSX in below;
+	// The Babel preprocessor will compile the JSX to below code
+	React.createElement("h1", null, "Hello, world!"), 
+	document.getElementById('root')
+	);
+</script>
+<!--
+	Yes. reactjs recommend you use Babel + JSX
+	But, in fact, you can do whatever you want
+	You not really need JSX; you can use more preprocessor but not only Babel.
+	
+	Hope my example can set you free.
+-->
+</body>
+</html>
